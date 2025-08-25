@@ -1,0 +1,25 @@
+{
+	"name": "ffbun-cli",
+	"version": "3.0.0",
+	"main": "cli.js",
+	"bin": {
+		"ffbun-cli": "cli.js"
+	},
+	"scripts": {
+		"publish": "npm publish --access public"
+	},
+	"keywords": [
+		"fastify",
+		"bun",
+		"cli",
+		"api",
+		"module"
+	],
+	"author": "Daniel Rodrigues",
+	"license": "ISC",
+	"description": "CLI tool for generating Fastify Bun API projects and modules",
+	"dependencies": {
+		"inquirer": "^12.6.0",
+		"simple-git": "^3.27.0"
+	}
+}
